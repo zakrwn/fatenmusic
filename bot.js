@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "zz";
+const prefix = "19";
 /////////////////////////
 ////////////////////////
 
@@ -351,7 +351,7 @@ client.on('message', message => {
 
 
 const devs = ["478320233359343617"]; //الايدي حقك
-const adminprefix = ["zz"]; // البرفكس
+const adminprefix = ["19"]; // البرفكس
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
